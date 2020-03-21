@@ -1,0 +1,48 @@
+Food Delivery System Design
+---------------------------
+REST API’s
+----------
+
+CustomerService
+---------------
+placeOrder()
+
+RestaurantService
+-----------------
+takeOrders()
+assignOrder()
+addItems()
+updateItems()
+deleteItems()
+closeOrders()
+
+RegistrationService
+-------------------
+registerCustomer()
+registerRestaurant()
+registerDeliveryboy()
+
+FeedbackService
+---------------
+provideRatingForOrder()
+provideRatingForRestaurant()
+
+ReportService
+-------------
+getBestRatedRestaurantbyPincode()
+getBestRatedDeliveryboybyPincode()
+
+CRON Job
+--------
+provideOffersForCustomers()
+
+Entities 
+--------
+
+Restaurant
+----------
+id - int, PrimaryKey, Auto increment
+name - varchar(30)
+type - varchar(10)
+pincode - varchar(10)
+ 
