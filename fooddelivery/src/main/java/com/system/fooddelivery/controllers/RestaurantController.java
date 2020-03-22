@@ -12,6 +12,11 @@ import com.system.fooddelivery.entities.Restaurant;
 import com.system.fooddelivery.forms.LoginForm;
 import com.system.fooddelivery.services.RegistrationService;
 
+/**
+ * This controller handles the request for restaurant services
+ * @author Mugash
+ *
+ */
 @RestController
 @RequestMapping(path="/api")
 @CrossOrigin(origins = "http://localhost:4200")
